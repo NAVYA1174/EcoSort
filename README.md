@@ -1,5 +1,6 @@
 # ♻️ EcoSort
 
+<<<<<<< HEAD
 ## Smart Waste Segregation and Recycling Assistance System
 
 EcoSort is a smart waste management application designed to help people correctly identify and segregate different types of waste. The system helps users understand proper disposal methods, recycling practices, and environmental impact.
@@ -56,6 +57,77 @@ By helping people make better waste disposal decisions, EcoSort contributes towa
 
 ---
 
+=======
+## Smart Waste Segregation and Recycling Support System
+
+EcoSort is a web-based waste management solution designed to help people identify and properly segregate different types of waste.
+
+The platform provides waste category information, disposal guidance, and recycling awareness to encourage responsible waste management practices and reduce environmental pollution.
+
+---
+
+# 🏆 Hackathon Information
+
+## Hackathon
+
+NxtWave - Idea to Impact Offline Hackathon
+
+## Project Name
+
+EcoSort
+
+## Domain
+
+Sustainability & Clean Technology
+
+---
+
+# Problem Statement
+
+Improper waste segregation is one of the major environmental challenges faced by communities today.
+
+Many people are confused about how to separate different waste materials such as plastic, paper, glass, metal, cardboard, and general waste. This results in poor recycling efficiency, increased landfill waste, and environmental pollution.
+
+This problem affects:
+
+- Households
+- Waste management workers
+- Recycling industries
+- Local communities
+
+EcoSort provides a simple digital solution that helps users understand waste categories and follow proper disposal methods, supporting cleaner and more sustainable communities.
+
+---
+
+# Solution Description
+
+EcoSort is a waste segregation and recycling assistance platform that helps users make better waste disposal decisions.
+
+Users can upload an image of a waste item, and the system identifies the waste category and provides suitable recycling and disposal recommendations.
+
+## How It Works
+
+1. User uploads an image of waste.
+2. The system analyzes the uploaded image.
+3. The waste category is identified.
+4. Disposal guidance and recycling information are displayed.
+5. Users can make environmentally responsible decisions.
+
+---
+
+# Key Features
+
+✅ Waste Category Identification  
+✅ Image Upload System  
+✅ Disposal Recommendations  
+✅ Recycling Guidance  
+✅ Environmental Impact Information  
+✅ CO₂ Saving Awareness  
+✅ Simple User-Friendly Interface  
+
+---
+
+>>>>>>> 2320411 (Update README for EcoSort project)
 # Waste Categories
 
 EcoSort supports the following waste categories:
@@ -69,7 +141,11 @@ EcoSort supports the following waste categories:
 
 ---
 
+<<<<<<< HEAD
 # Technologies Used
+=======
+# Technology Stack
+>>>>>>> 2320411 (Update README for EcoSort project)
 
 ## Frontend
 
@@ -81,22 +157,35 @@ EcoSort supports the following waste categories:
 - Python
 - Flask
 
+<<<<<<< HEAD
 ## Data Processing and Classification
+=======
+## Supporting Libraries
+>>>>>>> 2320411 (Update README for EcoSort project)
 
 - TensorFlow
 - Keras
 - NumPy
 - Pillow
 
+## Development Tools
+
+- Visual Studio Code
+- GitHub
+
 ---
 
 # Dataset
 
-Dataset Used:
+## Dataset Used
 
 TrashNet Dataset
 
+<<<<<<< HEAD
 The dataset contains images of different waste materials divided into six categories:
+=======
+The dataset contains different categories of waste images:
+>>>>>>> 2320411 (Update README for EcoSort project)
 
 - Cardboard
 - Glass
@@ -104,6 +193,7 @@ The dataset contains images of different waste materials divided into six catego
 - Paper
 - Plastic
 - Trash
+<<<<<<< HEAD
 
 The dataset helps the system understand different waste types and improve classification accuracy.
 
@@ -112,6 +202,14 @@ The dataset helps the system understand different waste types and improve classi
 Project Structure
 
 EcoSortAI/
+=======
+
+---
+
+# Project Structure
+
+EcoSort/
+>>>>>>> 2320411 (Update README for EcoSort project)
 │
 ├── model/
 │   └── eco_sort_model.keras
@@ -134,13 +232,21 @@ EcoSortAI/
 
 ---
 
+<<<<<<< HEAD
 # Installation
+=======
+# Installation and Setup
+>>>>>>> 2320411 (Update README for EcoSort project)
 
 ## Clone Repository
 
 git clone https://github.com/NAVYA1174/EcoSort.git
 
+<<<<<<< HEAD
 ## Install Required Packages
+=======
+## Install Dependencies
+>>>>>>> 2320411 (Update README for EcoSort project)
 
 pip install -r requirements.txt
 
@@ -148,12 +254,17 @@ pip install -r requirements.txt
 
 python app.py
 
+<<<<<<< HEAD
 Open the application:
+=======
+Open in browser:
+>>>>>>> 2320411 (Update README for EcoSort project)
 
 http://127.0.0.1:5000
 
 ---
 
+<<<<<<< HEAD
 # How EcoSort Helps
 
 EcoSort helps create awareness about responsible waste disposal by:
@@ -163,10 +274,23 @@ EcoSort helps create awareness about responsible waste disposal by:
 - Supporting waste management workers
 - Encouraging environmentally friendly habits
 - Reducing landfill waste
+=======
+# Real World Impact
+
+EcoSort helps improve waste segregation awareness and encourages responsible disposal habits.
+
+The project supports:
+
+- Cleaner communities
+- Better recycling practices
+- Reduced landfill waste
+- Sustainable waste management
+>>>>>>> 2320411 (Update README for EcoSort project)
 
 ---
 
 # Future Improvements
+<<<<<<< HEAD
 
 Future versions of EcoSort can include:
 
@@ -176,11 +300,20 @@ Future versions of EcoSort can include:
 - Recycling Center Locator
 - Smart Waste Collection Integration
 - Community Waste Monitoring System
+=======
+
+- Mobile Application
+- Live Camera Waste Identification
+- Multi-language Support
+- Smart Recycling Center Locator
+- Integration with waste management systems
+>>>>>>> 2320411 (Update README for EcoSort project)
 
 ---
 
 # Project Information
 
+<<<<<<< HEAD
 ## Hackathon
 
 NxtWave Academy - Idea to Impact Offline Hackathon
@@ -198,3 +331,14 @@ Sustainability & Clean Technology
 # License
 
 
+=======
+**Project Name:** EcoSort
+
+**Hackathon:** NxtWave - Idea to Impact Offline Hackathon
+
+**Domain:** Sustainability & Clean Technology
+
+---
+
+# Licenses
+>>>>>>> 2320411 (Update README for EcoSort project)
