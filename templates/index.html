@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>EcoSortAI</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>♻ EcoSortAI</h1>
+
+<h2>Smart Waste Classification using AI</h2>
+
+<p>
+Upload an image and let Artificial Intelligence identify the waste category.
+</p>
+
+<form action="/predict" method="POST" enctype="multipart/form-data">
+
+<div class="upload-box">
+
+<input type="file" name="image" required>
+
+</div>
+
+<button type="submit">
+
+Predict Waste
+
+</button>
+
+</form>
+
+</div>
+
+</body>
+
+</html>

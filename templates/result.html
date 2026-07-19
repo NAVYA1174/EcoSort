@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Prediction Result</title>
+
+    <link rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>♻ Prediction Result</h1>
+
+    <!-- Uploaded Image -->
+    <img src="{{ url_for('static', filename='uploads/' + image_file) }}"
+         class="result-image">
+
+    <!-- Prediction -->
+    <h2 class="result">
+        {{ prediction }}
+    </h2>
+
+    <!-- Confidence -->
+    <h3 class="confidence">
+        Confidence : {{ confidence }} %
+    </h3>
+
+    <!-- Waste Disposal Suggestion -->
+    <div class="suggestion-box">
+        <h3>♻ Waste Disposal Suggestion</h3>
+        <p>{{ suggestion }}</p>
+    </div>
+
+    <!-- Recycling Tip -->
+    <div class="suggestion-box">
+        <h3>💡 Recycling Tip</h3>
+        <p>{{ tip }}</p>
+    </div>
+
+    <!-- Environmental Impact -->
+    <div class="suggestion-box">
+        <h3>🌍 Environmental Impact</h3>
+        <p>{{ impact }}</p>
+    </div>
+
+    <!-- CO₂ Saved -->
+    <div class="suggestion-box">
+        <h3>🌱 Estimated CO₂ Saved</h3>
+        <p>{{ co2_saved }}</p>
+    </div>
+
+    <!-- Button -->
+    <a href="/">
+        <button>
+            Predict Another Image
+        </button>
+    </a>
+
+</div>
+
+</body>
+</html>
