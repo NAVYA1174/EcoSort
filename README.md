@@ -1,73 +1,87 @@
-# ♻️ EcoSortAI
+# ♻️ EcoSort
 
-## Smart Waste Classification Using Artificial Intelligence
+## Smart Waste Segregation and Recycling Assistance System
 
-EcoSortAI is an AI-powered web application that classifies waste images into different categories using a Convolutional Neural Network (CNN). The application also provides recycling guidance, environmental impact information, and waste disposal suggestions to encourage responsible waste management.
+EcoSort is a smart waste management application designed to help people correctly identify and segregate different types of waste. The system helps users understand proper disposal methods, recycling practices, and environmental impact.
 
----
-
-## Problem Statement
-
-Improper waste segregation leads to pollution, inefficient recycling, and environmental damage. Many people are unsure which recycling bin to use for different types of waste.
-
-EcoSortAI helps users identify waste correctly and provides recommendations for proper disposal.
+Improper waste disposal is a major environmental challenge. EcoSort provides a simple solution that encourages responsible waste management, improves recycling efficiency, and supports cleaner communities.
 
 ---
 
-## Solution
+# Problem Statement
 
-The user uploads an image of waste.
+Improper waste segregation is one of the major causes of pollution and inefficient recycling.
 
-The AI model analyzes the image and predicts its category.
+Many people are unsure about how to separate different types of waste such as plastic, paper, glass, metal, cardboard, and general waste. Because of this, recyclable materials often end up in landfills, increasing environmental damage.
 
-The system displays:
+This problem affects:
 
-- Waste Category
-- Confidence Score
-- Waste Disposal Suggestion
-- Recycling Tip
-- Environmental Impact
-- Estimated CO₂ Savings
+- Households
+- Waste management workers
+- Recycling industries
+- Local communities
+
+Manual waste sorting is time-consuming, difficult, and can create health risks for workers.
+
+EcoSort helps solve this problem by providing a simple waste identification and disposal guidance system that supports better recycling decisions and sustainable waste management.
 
 ---
 
-## Features
+# Solution
 
-- AI-based Waste Classification
-- Image Upload
-- Real-time Prediction
-- Confidence Score
-- Recycling Suggestions
+EcoSort provides an easy-to-use platform where users can upload an image of a waste item and receive information about its category and proper disposal method.
+
+The system helps users:
+
+- Identify different waste categories
+- Understand correct disposal methods
+- Improve waste segregation habits
+- Learn recycling practices
+- Reduce unnecessary landfill waste
+
+By helping people make better waste disposal decisions, EcoSort contributes towards cleaner surroundings and sustainable communities.
+
+---
+
+# Features
+
+- Waste Image Classification
+- Simple Image Upload System
+- Waste Category Identification
+- Disposal Recommendations
+- Recycling Awareness Tips
 - Environmental Impact Information
-- CO₂ Savings Information
-- Modern Flask Web Interface
+- CO₂ Saving Information
+- User-Friendly Web Interface
 
 ---
 
-## Waste Categories
+# Waste Categories
+
+EcoSort supports the following waste categories:
 
 - Cardboard
 - Glass
 - Metal
 - Paper
 - Plastic
-- Trash
+- General Trash
 
 ---
 
-## Technologies Used
+# Technologies Used
 
-### Frontend
+## Frontend
 
 - HTML5
 - CSS3
 
-### Backend
+## Backend
 
-- Flask
 - Python
+- Flask
 
-### Artificial Intelligence
+## Data Processing and Classification
 
 - TensorFlow
 - Keras
@@ -76,19 +90,27 @@ The system displays:
 
 ---
 
-## Dataset
+# Dataset
 
 Dataset Used:
 
 TrashNet Dataset
 
-Contains six categories of recyclable waste images.
+The dataset contains images of different waste materials divided into six categories:
+
+- Cardboard
+- Glass
+- Metal
+- Paper
+- Plastic
+- Trash
+
+The dataset helps the system understand different waste types and improve classification accuracy.
 
 ---
 
-## Project Structure
+Project Structure
 
-```
 EcoSortAI/
 │
 ├── model/
@@ -103,62 +125,76 @@ EcoSortAI/
 │   ├── index.html
 │   └── result.html
 │
+├── notebooks/
+│   └── train_model.py
+│
 ├── app.py
-├── train_model.py
 ├── requirements.txt
 └── README.md
-```
 
 ---
 
-## Installation
+# Installation
 
-Clone the repository
+## Clone Repository
 
-```
-git clone <repository-link>
-```
+git clone https://github.com/NAVYA1174/EcoSort.git
 
-Install dependencies
+## Install Required Packages
 
-```
 pip install -r requirements.txt
-```
 
-Run the application
+## Run Application
 
-```
 python app.py
-```
 
-Open
+Open the application:
 
-```
 http://127.0.0.1:5000
-```
 
 ---
 
-## Future Improvements
+# How EcoSort Helps
+
+EcoSort helps create awareness about responsible waste disposal by:
+
+- Reducing incorrect waste mixing
+- Improving recycling efficiency
+- Supporting waste management workers
+- Encouraging environmentally friendly habits
+- Reducing landfill waste
+
+---
+
+# Future Improvements
+
+Future versions of EcoSort can include:
 
 - Mobile Application
-- Live Camera Detection
+- Live Camera Waste Detection
 - Multi-language Support
-- Smart Recycling Center Locator
-- Barcode-based Waste Detection
+- Recycling Center Locator
+- Smart Waste Collection Integration
+- Community Waste Monitoring System
 
 ---
 
-## Team
+# Project Information
 
-Hack-ocalypse '26 Project
+## Hackathon
 
-Project Name:
+NxtWave Academy - Idea to Impact Offline Hackathon
 
-EcoSortAI
+## Project Name
+
+EcoSort
+
+## Domain
+
+Sustainability & Clean Technology
 
 ---
 
-## License
+# License
 
-This project is developed for educational and hackathon purposes.
+
